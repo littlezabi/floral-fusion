@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UsersList>
+  <User>
+    <firstname>John</firstname>
+    <lastname>doe</lastname>
+    <email>johndoe123@gmail.com</email>
+    <password>123123123</password>
+    <createdAt>09-24-2023</createdAt>
+  </User>
+  <User>
+    <firstname>Muhammad</firstname>
+    <lastname>Zohaib</lastname>
+    <email>abc123@gmail.com</email>
+    <password>123123123123</password>
+    <createdAt>09-25-2023</createdAt>
+  </User>
+</UsersList>

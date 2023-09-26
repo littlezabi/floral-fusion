@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["NAME"] = "Floral Fusion Express";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Floral Fusion Express</title>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/tailwind/dist/output.css" />
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+    @* <link rel="stylesheet" href="~/floral_fusion.styles.css" asp-append-version="true" /> *@
+</head>
+
+<body>
+    @* @if (ViewBag.UserExists)
+    {
+    <p>User exists</p>
+    }
+    else
+    {
+    <p>User does not exist</p>
+    } *@
+    @await Component.InvokeAsync("Headers", new { name = "John" })
+
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @await Component.InvokeAsync("Footers", new { name = "John" })
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

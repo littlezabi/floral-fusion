@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\floral-fusion.bundle.scp.css",
+      "PackagePath": "staticwebassets\\floral-fusion.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\css\\tailwind\\dist\\output.css",
+      "PackagePath": "staticwebassets\\css\\tailwind\\dist\\output.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\css\\tailwind\\package-lock.json",
+      "PackagePath": "staticwebassets\\css\\tailwind\\package-lock.json"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\css\\tailwind\\package.json",
+      "PackagePath": "staticwebassets\\css\\tailwind\\package.json"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\css\\tailwind\\src\\input.css",
+      "PackagePath": "staticwebassets\\css\\tailwind\\src\\input.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\css\\tailwind\\tailwind.config.js",
+      "PackagePath": "staticwebassets\\css\\tailwind\\tailwind.config.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\app.py",
+      "PackagePath": "staticwebassets\\images\\app.py"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (1).jpg",
+      "PackagePath": "staticwebassets\\images\\image (1).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (10).jpg",
+      "PackagePath": "staticwebassets\\images\\image (10).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (11).jpg",
+      "PackagePath": "staticwebassets\\images\\image (11).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (12).jpg",
+      "PackagePath": "staticwebassets\\images\\image (12).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (13).jpg",
+      "PackagePath": "staticwebassets\\images\\image (13).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (14).jpg",
+      "PackagePath": "staticwebassets\\images\\image (14).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (15).jpg",
+      "PackagePath": "staticwebassets\\images\\image (15).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (16).jpg",
+      "PackagePath": "staticwebassets\\images\\image (16).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (17).jpg",
+      "PackagePath": "staticwebassets\\images\\image (17).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (18).jpg",
+      "PackagePath": "staticwebassets\\images\\image (18).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (19).jpg",
+      "PackagePath": "staticwebassets\\images\\image (19).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (2).jpg",
+      "PackagePath": "staticwebassets\\images\\image (2).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (20).jpg",
+      "PackagePath": "staticwebassets\\images\\image (20).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (21).jpg",
+      "PackagePath": "staticwebassets\\images\\image (21).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (22).jpg",
+      "PackagePath": "staticwebassets\\images\\image (22).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (23).jpg",
+      "PackagePath": "staticwebassets\\images\\image (23).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (24).jpg",
+      "PackagePath": "staticwebassets\\images\\image (24).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (25).jpg",
+      "PackagePath": "staticwebassets\\images\\image (25).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (26).jpg",
+      "PackagePath": "staticwebassets\\images\\image (26).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (27).jpg",
+      "PackagePath": "staticwebassets\\images\\image (27).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (28).jpg",
+      "PackagePath": "staticwebassets\\images\\image (28).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (29).jpg",
+      "PackagePath": "staticwebassets\\images\\image (29).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (3).jpg",
+      "PackagePath": "staticwebassets\\images\\image (3).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (30).jpg",
+      "PackagePath": "staticwebassets\\images\\image (30).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (4).jpg",
+      "PackagePath": "staticwebassets\\images\\image (4).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (5).jpg",
+      "PackagePath": "staticwebassets\\images\\image (5).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (6).jpg",
+      "PackagePath": "staticwebassets\\images\\image (6).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (7).jpg",
+      "PackagePath": "staticwebassets\\images\\image (7).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (8).jpg",
+      "PackagePath": "staticwebassets\\images\\image (8).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\images\\image (9).jpg",
+      "PackagePath": "staticwebassets\\images\\image (9).jpg"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\C#\\asp.net\\floral-fusion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.floral-fusion.props",
+      "PackagePath": "build\\floral-fusion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.floral-fusion.props",
+      "PackagePath": "buildMultiTargeting\\floral-fusion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.floral-fusion.props",
+      "PackagePath": "buildTransitive\\floral-fusion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.floral-fusion.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

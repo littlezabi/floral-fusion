@@ -1,0 +1,62 @@
+﻿@{
+  ViewData["Title"] = "Products ";
+}
+@model List<Product>;
+<div class="text-center">
+  <div class="bg-white">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        @foreach (var product in Model)
+        {
+          <article class="flex max-w-xl flex-col items-start justify-between article-23cs shadow-md">
+            <div class="flex items-center gap-x-4 text-xs">
+              @* <time class="text-gray-500">@product.CreatedAt</time>
+              @foreach (var tag in product.Tags.Split(','))
+              {
+                <a href="/tags/@tag.Trim()"
+                  class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">@tag.Trim()</a>
+              } *@
+            </div>
+            <img src="@Url.Content(product.Image)" alt="">
+            <div class="group relative">
+              <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                <a href="#">
+                  <span class="absolute inset-0"></span>
+                  <span>@product.Title</span>
+                  <div>Price $@product.Price</div>
+                </a>
+              </h3>
+              <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">@product.Description</p>
+            </div>
+            <div style="width: 100%" id="product-@product.Id">
+              @if (ViewData["User"] != null)
+              {
+                <button onclick="addItemToCart(@product.Id)" style="width: 100%"
+                  class="m-3 flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700">
+                  Add to <svg style="margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                  </svg>
+                </button>
+                <p class="message"></p>
+              }
+              else
+              {
+                <a href="/login"
+                  class="m-3 flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700">
+                  Add to <svg style="margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                  </svg>
+                </a>
+              }
+            </div>
+          </article>
+        }
+      </div>
+    </div>
+  </div>
+
+</div>

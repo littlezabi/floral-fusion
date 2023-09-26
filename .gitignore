@@ -1,0 +1,8 @@
+*.zip
+node_modules
+wwwroot/css/tailwind/src
+wwwroot/css/tailwind/package-lock.json
+wwwroot/css/tailwind/package.json
+wwwroot/css/tailwind/tailwind.config.js
+wwwroot/images/app.py
+.vscode

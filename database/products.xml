@@ -1,0 +1,241 @@
+<products>
+    <product>
+        <id>1</id>
+        <title>Blue Ceramic Vase</title>
+        <image>/images/image (1).jpg</image>
+        <description>Enhance the beauty of your living space with this stunning blue ceramic vase. Its elegant design and vibrant color make it a perfect addition to your home decor. This vase is not only a decorative piece but also a functional one, allowing you to display your favorite flowers in style.</description>
+        <price>49.99</price>
+    </product>
+    
+    <product>
+        <id>2</id>
+        <title>Handcrafted Wooden Chair</title>
+        <image>/images/image (2).jpg</image>
+        <description>Experience ultimate comfort and style with our handcrafted wooden chair. This chair is meticulously crafted from high-quality wood and features a timeless design that complements any room. Whether you're enjoying a meal with your family or relaxing with a book, this chair provides the perfect seating solution.</description>
+        <price>99.99</price>
+    </product>
+    
+    <product>
+        <id>3</id>
+        <title>Gourmet Chocolate Box</title>
+        <image>/images/image (3).jpg</image>
+        <description>Indulge in the rich and decadent flavors of our gourmet chocolate box. This assortment includes a variety of handcrafted chocolates made from the finest ingredients. Whether you have a sweet tooth or want to surprise someone special, our gourmet chocolates are a delightful treat.</description>
+        <price>19.99</price>
+    </product>
+    
+    <product>
+        <id>4</id>
+        <title>Antique Brass Table Lamp</title>
+        <image>/images/image (4).jpg</image>
+        <description>Add a touch of vintage charm to your home with our antique brass table lamp. This exquisite lamp features intricate detailing and a warm, inviting glow. It's not just a source of light but also a conversation piece that adds character to any room.</description>
+        <price>69.99</price>
+    </product>
+    
+    <product>
+        <id>5</id>
+        <title>Handwoven Basket</title>
+        <image>/images/image (5).jpg</image>
+        <description>Organize your space in style with our handwoven basket. This versatile and eco-friendly basket is perfect for storing blankets, magazines, or even your favorite indoor plants. Its natural texture adds warmth to any room.</description>
+        <price>34.99</price>
+    </product>
+    
+    <product>
+        <id>6</id>
+        <title>Modern Wall Clock</title>
+        <image>/images/image (6).jpg</image>
+        <description>Keep track of time in a contemporary way with our modern wall clock. This sleek and minimalist clock adds a touch of sophistication to your space. Its silent movement ensures you won't be disturbed by ticking sounds.</description>
+        <price>29.99</price>
+    </product>
+    
+    <product>
+        <id>7</id>
+        <title>Luxury Leather Sofa</title>
+        <image>/images/image (7).jpg</image>
+        <description>Experience unparalleled comfort and luxury with our premium leather sofa. Crafted from the finest leather and designed for both style and durability, this sofa is the centerpiece of any living room. Whether you're entertaining guests or relaxing after a long day, our leather sofa provides the perfect seating solution.</description>
+        <price>799.99</price>
+    </product>
+    
+    <product>
+        <id>8</id>
+        <title>Crystal Chandelier</title>
+        <image>/images/image (8).jpg</image>
+        <description>Add a touch of elegance to your home with our crystal chandelier. This stunning chandelier features sparkling crystals that create a dazzling display of light and shadows. It's the perfect addition to your dining room or entryway, creating a glamorous ambiance for your home.</description>
+        <price>249.99</price>
+    </product>
+    
+    <product>
+        <id>9</id>
+        <title>Artificial Potted Plant</title>
+        <image>/images/image (9).jpg</image>
+        <description>Bring the beauty of nature indoors with our lifelike artificial potted plant. This realistic plant adds a touch of greenery to your space without the need for maintenance. It's perfect for those who want the look of real plants without the hassle of watering and care.</description>
+        <price>39.99</price>
+    </product>
+    
+    <product>
+        <id>10</id>
+        <title>Stainless Steel Kitchen Utensil Set</title>
+        <image>/images/image (10).jpg</image>
+        <description>Elevate your cooking experience with our stainless steel kitchen utensil set. This set includes all the essential tools you need for preparing and serving delicious meals. The high-quality stainless steel construction ensures durability and easy maintenance, making it a must-have for any kitchen.</description>
+        <price>49.99</price>
+    </product>
+    
+<product>
+    <id>11</id>
+    <title>Contemporary Glass Coffee Table</title>
+    <image>/images/image (11).jpg</image>
+    <description>Upgrade your living room with our contemporary glass coffee table. Its sleek design and transparent glass top create an open and airy feel in your space. This coffee table is not only a functional centerpiece but also a modern work of art.</description>
+    <price>129.99</price>
+</product>
+
+<product>
+    <id>12</id>
+    <title>Luxurious Velvet Throw Pillow</title>
+    <image>/images/image (12).jpg</image>
+    <description>Add a touch of luxury to your home decor with our plush velvet throw pillow. This soft and stylish pillow is available in a range of colors to suit your style. Whether you're decorating your sofa, bed, or accent chair, our velvet throw pillow brings comfort and elegance to any room.</description>
+    <price>19.99</price>
+</product>
+
+<product>
+    <id>13</id>
+    <title>Outdoor Patio Dining Set</title>
+    <image>/images/image (13).jpg</image>
+    <description>Create an outdoor dining oasis with our patio dining set. This set includes a spacious table and comfortable chairs, perfect for hosting outdoor gatherings. The durable materials are designed to withstand the elements, ensuring long-lasting enjoyment of your outdoor space.</description>
+    <price>399.99</price>
+</product>
+
+<product>
+    <id>14</id>
+    <title>Rustic Wooden Wall Shelves</title>
+    <image>/images/image (14).jpg</image>
+    <description>Add rustic charm to your home with our wooden wall shelves. These shelves provide both functionality and aesthetics, allowing you to display your favorite decor items, books, or plants. The natural wood finish adds warmth to any room.</description>
+    <price>29.99</price>
+</product>
+
+<product>
+    <id>15</id>
+    <title>Stainless Steel French Press</title>
+    <image>/images/image (15).jpg</image>
+    <description>Brew the perfect cup of coffee with our stainless steel French press. This classic coffee maker allows you to savor the rich flavors of your favorite coffee beans. The stainless steel construction ensures durability and easy cleaning, making it a must-have for coffee enthusiasts.</description>
+    <price>24.99</price>
+</product>
+
+<product>
+    <id>16</id>
+    <title>Modern L-Shaped Sectional Sofa</title>
+    <image>/images/image (16).jpg</image>
+    <description>Upgrade your living room with our modern L-shaped sectional sofa. Its spacious design provides ample seating for family and guests. The sleek lines and comfortable cushions make it the perfect choice for contemporary living spaces.</description>
+    <price>799.99</price>
+</product>
+
+<product>
+    <id>17</id>
+    <title>Ceramic Plant Pot Set</title>
+    <image>/images/image (17).jpg</image>
+    <description>Display your indoor plants in style with our ceramic plant pot set. This set includes a variety of pots in different sizes and designs, allowing you to create a charming plant display. The ceramic material adds a touch of elegance to your home decor.</description>
+    <price>34.99</price>
+</product>
+
+<product>
+    <id>18</id>
+    <title>Smart LED Desk Lamp</title>
+    <image>/images/image (18).jpg</image>
+    <description>Elevate your workspace with our smart LED desk lamp. This lamp offers adjustable lighting modes and color temperatures to suit your needs. It also features a built-in USB charging port, making it a convenient addition to your desk setup.</description>
+    <price>49.99</price>
+</product>
+
+<product>
+    <id>19</id>
+    <title>Vintage-Inspired Wall Mirror</title>
+    <image>/images/image (19).jpg</image>
+    <description>Enhance your home decor with our vintage-inspired wall mirror. This elegant mirror features a decorative frame with intricate details. It's not just a mirror but also a statement piece that adds character to your living space.</description>
+    <price>59.99</price>
+</product>
+
+<product>
+    <id>20</id>
+    <title>Set of Luxury Bath Towels</title>
+    <image>/images/image (20).jpg</image>
+    <description>Experience ultimate comfort with our set of luxury bath towels. These plush and absorbent towels are made from premium cotton for a soft and luxurious feel. Pamper yourself with the spa-like experience of our high-quality bath towels.</description>
+    <price>39.99</price>
+</product>
+<product>
+    <id>21</id>
+    <title>Modern Glass Dining Table</title>
+    <image>/images/image (21).jpg</image>
+    <description>Elevate your dining experience with our modern glass dining table. Its sleek design and transparent glass top create a contemporary and spacious feel in your dining area. This table is perfect for hosting dinner parties and family gatherings.</description>
+    <price>299.99</price>
+</product>
+
+<product>
+    <id>22</id>
+    <title>Cozy Faux Fur Throw Blanket</title>
+    <image>/images/image (22).jpg</image>
+    <description>Stay warm and stylish with our cozy faux fur throw blanket. This luxurious blanket is perfect for cuddling up on chilly evenings. The soft faux fur texture adds a touch of elegance to your home decor.</description>
+    <price>44.99</price>
+</product>
+
+<product>
+    <id>23</id>
+    <title>Modern Ceramic Dinnerware Set</title>
+    <image>/images/image (23).jpg</image>
+    <description>Elevate your dining experience with our modern ceramic dinnerware set. This set includes dinner plates, salad plates, bowls, and mugs, all designed with contemporary flair. Serve your meals with style using our high-quality dinnerware.</description>
+    <price>79.99</price>
+</product>
+
+<product>
+    <id>24</id>
+    <title>Minimalist Bookshelf</title>
+    <image>/images/image (24).jpg</image>
+    <description>Organize your books and decor with our minimalist bookshelf. Its clean and simple design allows you to display your favorite items in a clutter-free way. This bookshelf is a versatile addition to any room.</description>
+    <price>54.99</price>
+</product>
+
+<product>
+    <id>25</id>
+    <title>Smart Home Security Camera</title>
+    <image>/images/image (25).jpg</image>
+    <description>Enhance your home security with our smart home security camera. This camera offers real-time monitoring, motion detection, and two-way audio communication. Keep your home safe and stay connected from anywhere with our security camera.</description>
+    <price>89.99</price>
+</product>
+
+<product>
+    <id>26</id>
+    <title>Outdoor Fire Pit</title>
+    <image>/images/image (26).jpg</image>
+    <description>Create a cozy outdoor gathering space with our outdoor fire pit. This fire pit provides warmth and ambiance for your outdoor events. Gather around the fire and enjoy memorable moments with friends and family.</description>
+    <price>199.99</price>
+</product>
+
+<product>
+    <id>27</id>
+    <title>Artistic Wall Art Set</title>
+    <image>/images/image (27).jpg</image>
+    <description>Transform your walls with our artistic wall art set. This set includes a collection of unique and vibrant art pieces that add personality to your space. Express your creativity and style with our wall art.</description>
+    <price>69.99</price>
+</product>
+
+<product>
+    <id>28</id>
+    <title>Luxury Bathrobe Set</title>
+    <image>/images/image (28).jpg</image>
+    <description>Pamper yourself with our luxury bathrobe set. This set includes a plush bathrobe and matching slippers, perfect for relaxation after a bath or shower. Wrap yourself in comfort and style with our high-quality bathrobe set.</description>
+    <price>49.99</price>
+</product>
+
+<product>
+    <id>29</id>
+    <title>Modern Floating TV Stand</title>
+    <image>/images/image (29).jpg</image>
+    <description>Upgrade your entertainment center with our modern floating TV stand. This sleek and space-saving stand is designed to accommodate your TV, media devices, and more. Create a minimalist and organized look in your living room with our TV stand.</description>
+    <price>149.99</price>
+</product>
+
+<product>
+    <id>30</id>
+    <title>Organic Cotton Bedding Set</title>
+    <image>/images/image (30).jpg</image>
+    <description>Experience the comfort of organic cotton with our bedding set. This set includes a duvet cover and matching pillowcases made from 100% organic cotton. Sleep soundly knowing your bedding is eco-friendly and gentle on your skin.</description>
+    <price>79.99</price>
+</product>
+
+</products>
