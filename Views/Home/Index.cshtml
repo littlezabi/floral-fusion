@@ -9,14 +9,6 @@
         @foreach (var product in Model)
         {
           <article class="flex max-w-xl flex-col items-start justify-between article-23cs shadow-md">
-            <div class="flex items-center gap-x-4 text-xs">
-              @* <time class="text-gray-500">@product.CreatedAt</time>
-              @foreach (var tag in product.Tags.Split(','))
-              {
-                <a href="/tags/@tag.Trim()"
-                  class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">@tag.Trim()</a>
-              } *@
-            </div>
             <img src="@Url.Content(product.Image)" alt="">
             <div class="group relative">
               <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
@@ -31,7 +23,7 @@
             <div style="width: 100%" id="product-@product.Id">
               @if (ViewData["User"] != null)
               {
-                <button onclick="addItemToCart(@product.Id)" style="width: 100%"
+                <button onclick="addItemToCart(@product.Id)" style="width: 82%;margin:12px auto;"
                   class="m-3 flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700">
                   Add to <svg style="margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

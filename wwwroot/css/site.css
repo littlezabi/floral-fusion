@@ -1,50 +1,182 @@
-.product-list{
-  
+.shadow {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
 }
-.article-23cs{
-    width: 296px;
-    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-    padding: 2px 11px;
-    border-radius: 8px;
-    & img{
-        border-radius: 9px;
-        margin: 8px 0;
-        height: 200px;
-        object-fit: cover;
-        width: 100%;
-    }
+.article-23cs {
+  width: 296px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  padding: 2px 11px;
+  border-radius: 8px;
+  & img {
+    border-radius: 9px;
+    margin: 8px 0;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
 }
-.ut-cx3z{
-    position: relative;
-    & .x-badge{
-        background: rgb(79 70 229);
-        padding: 2px 4px;
-        display: inline;
-        color: white;
-        position: absolute;
-        top: -15px;
-        left: 13px;
-        height: 26px;
-        border-radius: 4px;
-    }
+.ut-cx3z {
+  position: relative;
+  & .x-badge {
+    background: rgb(79 70 229);
+    padding: 2px 4px;
+    display: inline;
+    color: white;
+    position: absolute;
+    top: -15px;
+    left: 13px;
+    height: 26px;
+    border-radius: 4px;
+  }
 }
-footer{
-    background: #f7f9fb;
-    text-align: center;
-    padding: 41px 0px;
+footer {
+  background: #f7f9fb;
+  text-align: center;
+  padding: 41px 0px;
 }
-.message{
-    margin: 10px auto;
-    text-align: center;
-    font-weight: 500;
-    background: #00800045;
-    border-radius: 3px;
-    width: max-content;
-    padding: 2px 7px;
-    &.alert{
-        background: #ffbc0066;
-    }
-    &.danger{
-        background: #ff420066;
-    }
+.message {
+  margin: 10px auto;
+  text-align: center;
+  font-weight: 500;
+  background: #00800045;
+  border-radius: 3px;
+  width: max-content;
+  padding: 2px 7px;
+  &.alert {
+    background: #ffbc0066;
+  }
+  &.danger {
+    background: #ff420066;
+  }
+}
+.cart-container {
+  padding: 20px;
+}
+
+.cart-container table {
+  max-width: 700px;
+  margin: auto;
+}
+.cart-container table th {
+  background: #f6f6ff;
+}
+.cart-container table th,
+.cart-container table td {
+  padding: 10px 20px;
+}
+
+.cart-container table tr:nth-child(even) {
+  background: #fafaff;
+}
+.cart-container table img {
+  height: 116px;
+  width: 317px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.header-view {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+}
+.header-view .price {
+  margin: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.checkout-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.checkout-container .left,
+.checkout-container .right {
+  width: 43%;
+  padding: 20px 30px;
+}
+.checkout-container .right .item-list .item-x323s div.ck2c button {
+  margin-top: 6px;
+  color: red;
+  text-transform: uppercase;
+}
+.checkout-container .right .item-list .item-x323s div.ck2c {
+  margin-left: 13px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.checkout-container .right .price-3c2g {
+  font-weight: 600;
+  font-size: 19px;
+  margin: 0 21px;
+}
+.checkout-container .right .item-list .item-x323s {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.checkout-container .right .item-list section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkout-container .right .item-list {
+  margin-top: 26px;
+  display: block;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 13px;
+  border: 1px solid #0000000d;
+  box-shadow: 4px 5px 20px 0px rgb(0 0 0 / 10%);
+}
+.checkout-container .right h3 {
+  font-size: 22px;
+  margin: 13px 0 24px 0;
+}
+.checkout-container .right img {
+  width: 124px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.ck2c2 .kcj238 {
+  display: flex;
+  justify-content: space-between;
+  margin: 21px 0;
+  font-weight: 500;
+}
+.ck2c2 {
+  margin-top: 10px;
+  padding: 18px;
+  margin-bottom: 10px;
+}
+.uck291-label {
+  margin: 10px 0 !important;
+  font-size: 16px !important;
+}
+.uck291 {
+  line-height: 2rem !important;
+  padding-left: 19px !important;
+}
+.h3-h {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+.klas-group .hck3031{
+  width: 32.0%;
+}
+.klas-group .hck303{
+  width: 20%;
+}
+.klas-group .hck3{
+  width: 79%;
+}
+.klas-group{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

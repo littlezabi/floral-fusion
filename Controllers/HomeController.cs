@@ -27,33 +27,39 @@ public class HomeController : Controller
         {
             var cartItem = new XmlDocument();
             cartItem.Load("./database/cartitem.xml");
-            foreach (XmlNode Item in cartItem?.SelectNodes("CartData/Item"))
+            var nodes = cartItem?.SelectNodes("CartData/Item");
+            if (nodes != null)
             {
-                Console.WriteLine();
-                if (Item.SelectSingleNode("user")?.InnerText == user)
+                foreach (XmlNode Item in nodes)
                 {
-                    CartCount++;
+                    Console.WriteLine();
+                    if (Item.SelectSingleNode("user")?.InnerText == user)
+                    {
+                        CartCount++;
+                    }
                 }
             }
         }
         var xmlDoc = new XmlDocument();
         xmlDoc.Load("./database/products.xml");
         var products = new List<Product>();
-        foreach (XmlNode node in xmlDoc?.SelectNodes("/products/product"))
+        var nodes_ = xmlDoc?.SelectNodes("/products/product");
+        if (nodes_ != null)
         {
-            if (node != null)
+            foreach (XmlNode node in nodes_)
             {
-                var product = new Product
+                if (node != null)
                 {
-                    Id = Convert.ToInt32(node?.SelectSingleNode("id")?.InnerText),
-                    Title = node?.SelectSingleNode("title")?.InnerText,
-                    Image = node?.SelectSingleNode("image")?.InnerText,
-                    Price = Convert.ToDecimal(node?.SelectSingleNode("price")?.InnerText),
-                    Description = node?.SelectSingleNode("description")?.InnerText,
-                    // Tags = node?.SelectSingleNode("Tags")?.InnerText,
-                    // CreatedAt = node?.SelectSingleNode("createdAt")?.InnerText,
-                };
-                products.Add(product);
+                    var product = new Product
+                    {
+                        Id = Convert.ToInt32(node?.SelectSingleNode("id")?.InnerText),
+                        Title = node?.SelectSingleNode("title")?.InnerText,
+                        Image = node?.SelectSingleNode("image")?.InnerText,
+                        Price = Convert.ToDecimal(node?.SelectSingleNode("price")?.InnerText),
+                        Description = node?.SelectSingleNode("description")?.InnerText,
+                    };
+                    products.Add(product);
+                }
             }
         }
         // if(user != null){
@@ -62,11 +68,6 @@ public class HomeController : Controller
         ViewData["CartCount"] = CartCount;
         ViewData["User"] = user;
         return View(products);
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

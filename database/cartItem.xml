@@ -1,23 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CartData>
-  <Item>
-    <user>abc123@gmail.com</user>
-    <product_id>1</product_id>
-    <createdAt>09-26-2023</createdAt>
-  </Item>
-  <Item>
+  <Item id="2">
     <user>abc123@gmail.com</user>
     <product_id>2</product_id>
-    <createdAt>09-26-2023</createdAt>
+    <createdAt>09-28-2023</createdAt>
   </Item>
-  <Item>
+  <Item id="3">
     <user>abc123@gmail.com</user>
     <product_id>3</product_id>
-    <createdAt>09-26-2023</createdAt>
+    <createdAt>09-28-2023</createdAt>
   </Item>
-  <Item>
+  <Item id="6">
     <user>abc123@gmail.com</user>
-    <product_id>5</product_id>
-    <createdAt>09-26-2023</createdAt>
+    <product_id>6</product_id>
+    <createdAt>09-28-2023</createdAt>
   </Item>
 </CartData>

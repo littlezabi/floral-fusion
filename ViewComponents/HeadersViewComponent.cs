@@ -1,3 +1,4 @@
+using System.Xml;
 using Microsoft.AspNetCore.Mvc;
 
 [ViewComponent]
@@ -5,6 +6,26 @@ public class HeadersViewComponent : ViewComponent
 {
     public IViewComponentResult Invoke(string name)
     {
-        return View("Default", name);
+        var user = Request?.Cookies["User"];
+        int CartCount = 0;
+        if (user != null)
+        {
+            var cartItem = new XmlDocument();
+            cartItem.Load("./database/cartitem.xml");
+            var nodes = cartItem?.SelectNodes("CartData/Item") ?? null;
+            if (nodes != null)
+            {
+                foreach (XmlNode Item in nodes)
+                {
+                    Console.WriteLine();
+                    if (Item.SelectSingleNode("user")?.InnerText == user)
+                    {
+                        CartCount++;
+                    }
+                }
+            }
+        }
+        // object x = new { user = user, cartCount = CartCount };
+        return View("Default", user +"|"+ CartCount.ToString());
     }
 }

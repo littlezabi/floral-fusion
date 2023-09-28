@@ -1,0 +1,175 @@
+<div class="checkout-container">
+    <div class="left">
+        <form>
+            <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+                <div style="width: 100%">
+                    <h2 class="h3-h" style="text-align:left;">Contact Information</h2>
+                </div>
+                <div class="mt-3 sm:mx-left sm:w-full">
+                    <form class="space-y-6" action="login/Submit" method="POST">
+                        @if (TempData["message"] != null)
+                        {
+                            <div class='message @(TempData["variant"])'>@TempData["message"]</div>
+                        }
+                        <div>
+                            <label for="email"
+                                class="block text-sm font-medium leading-6 text-gray-900 uck291-label">Email
+                                address</label>
+                            <div class="mt-2">
+                                <input id="email" placeholder="Enter your email address" name="Email" type="email"
+                                    autocomplete="email" required
+                                    class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                            </div>
+                        </div>
+
+                        <h3 class="h3-h">Payment details</h3>
+                        <div>
+                            <label for="card-name"
+                                class="block text-sm font-medium leading-6 text-gray-900 uck291-label">Name on card
+                            </label>
+                            <div class="mt-2">
+                                <input id="card-name" placeholder="Enter card name" name="card-name" type="card-name"
+                                    autocomplete="cc-name" required
+                                    class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="cart-num"
+                                class="block text-sm font-medium leading-6 text-gray-900 uck291-label">Card number
+                            </label>
+                            <div class="mt-2">
+                                <input id="cart-num" placeholder="Enter card number" name="cart-num" type="cart-num"
+                                    required
+                                    class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                            </div>
+                        </div>
+                        <div class="klas-group">
+                            <div class="hck3">
+                                <label for="exp-date"
+                                    class="block text-sm font-medium leading-6 text-gray-900 uck291-label">Expiration
+                                    date (MM/YY)</label>
+                                <div class="mt-2">
+                                    <input id="exp-date" placeholder="Enter card expiration date" name="exp-date"
+                                        type="exp-date" required
+                                        class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                                </div>
+                            </div>
+                            <div class="hck303">
+                                <label for="cvc"
+                                    class="block text-sm font-medium leading-6 text-gray-900 uck291-label">CVC</label>
+                                <div class="mt-2">
+                                    <input id="cvc" placeholder="Enter CVC" name="cvc" type="cvc" autocomplete="email"
+                                        required
+                                        class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="h3-h">Shipping address</h3>
+                        <div>
+                            <label for="company"
+                                class="block text-sm font-medium leading-6 text-gray-900 uck291-label">Company</label>
+                            <div class="mt-2">
+                                <input id="company" placeholder="" name="company" type="company" autocomplete="company"
+                                    required
+                                    class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="Address"
+                                class="block text-sm font-medium leading-6 text-gray-900 uck291-label">Address</label>
+                            <div class="mt-2">
+                                <input id="Address" placeholder="" name="Address" type="Address" autocomplete="Address"
+                                    required
+                                    class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="ck2nc2"
+                                class="block text-sm font-medium leading-6 text-gray-900 uck291-label">Apartment, suite, etc.</label>
+                            <div class="mt-2">
+                                <input id="ck2nc2" placeholder="" name="ck2nc2" type="ck2nc2"
+                                    required
+                                    class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                            </div>
+                        </div>
+                        <div class="klas-group">
+                            <div class="hck3031">
+                                <label for="City"
+                                    class="block text-sm font-medium leading-6 text-gray-900 uck291-label">City</label>
+                                <div class="mt-2">
+                                    <input id="City" placeholder="" name="City"
+                                        type="City" required
+                                        class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                                </div>
+                            </div>
+                            <div class="hck3031">
+                                <label for="state"
+                                    class="block text-sm font-medium leading-6 text-gray-900 uck291-label">State / Province</label>
+                                <div class="mt-2">
+                                    <input id="state" placeholder="" name="state" type="state"
+                                        required
+                                        class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                                </div>
+                            </div>
+                            <div class="hck3031">
+                                <label for="pcode"
+                                    class="block text-sm font-medium leading-6 text-gray-900 uck291-label">Postal code</label>
+                                <div class="mt-2">
+                                    <input id="pcode" placeholder="" name="pcode" type="pcode"
+                                        required
+                                        class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex" style="align-items:center;justify-content:space-between">
+                            <p class="mt-5">You won't be charged until the next step.</p>
+                            <button type="submit"
+                                class="flex justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mt-5"
+                                style="width: 200px">
+                                Continue</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="right">
+        <h3>Order Summary</h3>
+        <div class="item-list">
+            @foreach (var item in Model)
+            {
+                <section id="cart-item-@item.id">
+                    <div class="item-x323s">
+                        <img src="@item.image" alt="@item.title" />
+                        <div class="ck2c">
+                            <p>@item.title</p>
+                            <button onclick="handleCartRemove(@item.id, @item.price)">Remove</button>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="price-3c2g">$@item.price</p>
+                    </div>
+                </section>
+            }
+            <div class="ck2c2">
+                <div class="kcj238">
+                    <span>Subtotal</span>
+                    <span class="cart-price-total">$@ViewData["cartPrice"]</span>
+                </div>
+                <div class="kcj238">
+                    <span>Shipping</span>
+                    <span>$0.0</span>
+                </div>
+                <div class="kcj238">
+                    <span>Taxes</span>
+                    <span>$0.0</span>
+                </div>
+                <hr>
+                <div class="kcj238">
+                    <span>Total</span>
+                    <span class="cart-price-total">$@ViewData["cartPrice"]</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
