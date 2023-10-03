@@ -9,6 +9,7 @@ public class CheckoutController : Controller
     private readonly string filePath = "./database/cartitem.xml";
     public ActionResult Index()
     {
+        TempData["message"] = "";
         var user = Request?.Cookies["User"];
         if (user != null)
         {

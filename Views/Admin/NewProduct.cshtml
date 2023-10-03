@@ -1,0 +1,65 @@
+@{
+    ViewData["Title"] = "ADMIN - Products ";
+}
+<div class="cart-container admin-view" style="width: 90%">
+    <div class="left">
+        @await Component.InvokeAsync("AdminSidebar")
+    </div>
+    <div class="right">
+        <div class="ac3">
+            <h2>Add New product</h2>
+            <p>Add new product in the list please make sure you are not adding a product that is already exist. Be
+                carefully no changes will be undo.</p>
+        </div>
+        <form class="space-y-6" action="/admin/SubmitProduct" method="POST">
+            @if (TempData["message"] != null)
+            {
+                <div class='message @(TempData["variant"])'>@TempData["message"]</div>
+            }
+            <div>
+                <label for="title" class="block text-sm font-medium leading-6 text-gray-900 uck291-label">
+                    Add Product Title
+                </label>
+                <div class="mt-2">
+                    <input id="title" placeholder="E.g Handwoven Basket" name="title" type="text" required
+                        class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                </div>
+            </div>
+            <div>
+                <label for="description" class="block text-sm font-medium leading-6 text-gray-900 uck291-label">Product
+                    Description
+                </label>
+                <div class="mt-2">
+                    <textarea id="description" placeholder="Enter Description of this product" name="description"
+                        required
+                        class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291"></textarea>
+                </div>
+            </div>
+            <div>
+                <label for="image-url" class="block text-sm font-medium leading-6 text-gray-900 uck291-label">Paste
+                    Image URL
+                </label>
+                <div class="mt-2">
+                    <input id="image-url" placeholder="Type or Paste image url" name="image" type="text" required
+                        class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                </div>
+            </div>
+            <div class="klas-group">
+                <div class="hck303">
+                    <label for="cvc" class="block text-sm font-medium leading-6 text-gray-900 uck291-label">Product Price</label>
+                    <div class="mt-2">
+                       <input id="cvc" placeholder="E.g. $27.00" name="price" type="number" step="0.000001" required
+                            class="block w-full rounded-md border-0 py-1.5 px-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 uck291">
+                    </div>
+                </div>
+            </div>
+            <div class="flex" style="align-items:center;justify-content:space-between">
+                <p class="mt-5">Please make sure all fields is correct and product is not duplicate.</p>
+                <button type="submit"
+                    class="flex justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mt-5"
+                    style="width: 200px">
+                    Save</button>
+            </div>
+        </form>
+    </div>
+</div>

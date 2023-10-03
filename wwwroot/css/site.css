@@ -1,3 +1,83 @@
+
+.home-top-view .home-top-view-text a:hover {
+  border-color: white;
+}
+.home-top-view .home-top-view-text a svg {
+  margin-left: 10px;
+}
+.fade-in{
+  opacity: 0;
+  animation: fade-in 500ms ease-in-out 1 forwards;
+}
+@keyframes fade-in{
+  0%{opacity: 0;}
+  100%{opacity: 100%;}
+}
+.home-top-view .home-top-view-text a {
+  transition: 300ms;
+  background: rgba(0, 0, 0, 0.753);
+  width: 200px;
+  border-radius: 35px;
+  border: 2px solid rgba(255, 255, 255, 0.493);
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.home-top-view .home-top-view-text p {
+  font-size: 18px;
+  width: 450px;
+}
+.home-top-view .home-top-view-text h2 {
+  font-size: 39px;
+  text-transform: uppercase;
+}
+.home-top-view .home-top-view-text {
+  position: absolute;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 249px;
+  z-index: 0;
+  width: max-content;
+  margin: auto;
+  margin-top: 135px;
+}
+.home-top-view .bg-layer {
+  background: radial-gradient(#00000082, #0000009e);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top:0;
+}
+.home-top-view .top-view-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home-top-view .top-view-bg {
+  width: 100%;
+  height: 576px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+.home-view {
+  margin-top: 461px;
+}
+.home-view article {
+  background-color: white;
+}
 .shadow {
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
 }
@@ -68,8 +148,8 @@ footer {
   background: #fafaff;
 }
 .cart-container table img {
-  height: 116px;
-  width: 317px;
+  height: 100px;
+  width: 100px;
   object-fit: cover;
   border-radius: 7px;
 }
@@ -166,17 +246,64 @@ footer {
   font-size: 22px;
   font-weight: 500;
 }
-.klas-group .hck3031{
-  width: 32.0%;
+.klas-group .hck3031 {
+  width: 32%;
 }
-.klas-group .hck303{
+.klas-group .hck303 {
   width: 20%;
 }
-.klas-group .hck3{
+.klas-group .hck3 {
   width: 79%;
 }
-.klas-group{
+.klas-group {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.admin-view .left ul li:hover {
+  background: #c6c6ff;
+}
+.admin-view .left ul li a svg {
+  margin-right: 10px;
+  width: 20px;
+}
+.admin-view .left ul li a {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.admin-view .left ul li {
+  cursor: pointer;
+  transition: 400ms;
+  padding: 5px 13px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+.admin-view .left {
+  width: 18%;
+  background: #f4f4ff;
+  padding: 14px;
+  border-radius: 9px;
+  margin: 0 24px;
+}
+.admin-view .right {
+  width: 79%;
+}
+.admin-view {
+  display: flex;
+}
+
+.admin-view table td {
+  padding: 6px 7px !important;
+  border: 1px solid #0000ff0f;
+}
+.ac3 h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.ac3 p {
+  font-size: 12px;
+}
+.ac3 {
+  padding: 13px 0;
 }

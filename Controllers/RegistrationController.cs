@@ -39,11 +39,13 @@ public class RegistrationController : Controller
                 XElement Email = new("email", model.Email);
                 XElement Password = new("password", model.Password);
                 XElement CreatedAt = new("createdAt", DateAndTime.DateString);
+                XElement asAdmin = new("asAdmin", (model.asAdmin != null) ? 1 : 0);
                 user.Add(FirstName);
                 user.Add(LastName);
                 user.Add(Email);
                 user.Add(Password);
                 user.Add(CreatedAt);
+                user.Add(asAdmin);
                 xmlDoc?.Element("UsersList")?.Add(user);
                 xmlDoc?.Save(filePath);
                 var UserObject = new

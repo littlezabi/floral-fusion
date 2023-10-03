@@ -7,4 +7,5 @@ public class RegistrationModel
     public string? RePassword { get; set; }
     public string? CreatedAt { get; set; }
     public string? Active { get; set; }
+    public string? asAdmin { get; set; }
 }

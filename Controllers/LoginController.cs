@@ -4,10 +4,16 @@ public class LoginController : Controller
 {
     public IActionResult Index()
     {
+        var redirectTo = Request.Query["redirect"];
+        ViewData["pageView"] = redirectTo;
         return View();
     }
     public ActionResult Submit(RegistrationModel model)
     {
+        var redirectTo = Request.Query["redirect"];
+        if(redirectTo == "") redirectTo = "Home";
+        ViewData["pageView"] = redirectTo;
+        Console.WriteLine(redirectTo);
         XElement xml = XElement.Load("./database/users.xml");
         TempData["variant"] = "success";
         var user = xml.Elements("User")
@@ -26,13 +32,13 @@ public class LoginController : Controller
             string email = user?.Element("email")?.Value ?? "";
             Response.Cookies.Append("User", email, cookieOptions);
             TempData["message"] = "Successfully Logged!";
-            return Redirect("/Home");
+            return Redirect($"/{redirectTo}");
         }
         else
         {
             TempData["variant"] = "danger";
             TempData["message"] = "User email or password is incorrect!";
         }
-        return RedirectToAction("");
+        return Redirect($"/login?redirect={redirectTo}");
     }
 }

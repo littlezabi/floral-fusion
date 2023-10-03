@@ -16,23 +16,18 @@
 </head>
 
 <body>
-    @* @if (ViewBag.UserExists)
-    {
-    <p>User exists</p>
+    @if(Url?.Action()?.Split("/").Length > 1 && Url?.Action()?.Split("/")[1] == "Admin"){
+        @await Component.InvokeAsync("AdminHeaders")
+    }else{
+        @await Component.InvokeAsync("Headers")
     }
-    else
-    {
-    <p>User does not exist</p>
-    } *@
-    @await Component.InvokeAsync("Headers", new { name = "John" })
-
     <div>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    @await Component.InvokeAsync("Footers", new { name = "John" })
+    @await Component.InvokeAsync("Footers")
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

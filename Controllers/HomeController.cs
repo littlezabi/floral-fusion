@@ -62,9 +62,6 @@ public class HomeController : Controller
                 }
             }
         }
-        // if(user != null){
-        //     var x = JsonConvert.DeserializeObject(user);
-        // }
         ViewData["CartCount"] = CartCount;
         ViewData["User"] = user;
         return View(products);

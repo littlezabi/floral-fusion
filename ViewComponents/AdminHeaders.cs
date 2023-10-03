@@ -2,7 +2,7 @@ using System.Xml;
 using Microsoft.AspNetCore.Mvc;
 
 [ViewComponent]
-public class HeadersViewComponent : ViewComponent
+public class AdminHeadersViewComponent : ViewComponent
 {
     public IViewComponentResult Invoke(string name)
     {

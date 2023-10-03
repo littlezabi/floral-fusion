@@ -6,6 +6,8 @@ F:\C#\asp.net\floral-fusion\bin\Debug\net7.0\floral-fusion.deps.json
 F:\C#\asp.net\floral-fusion\bin\Debug\net7.0\floral-fusion.runtimeconfig.json
 F:\C#\asp.net\floral-fusion\bin\Debug\net7.0\floral-fusion.dll
 F:\C#\asp.net\floral-fusion\bin\Debug\net7.0\floral-fusion.pdb
+F:\C#\asp.net\floral-fusion\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\floral-fusion.csproj.AssemblyReference.cache
 F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\floral-fusion.GeneratedMSBuildEditorConfig.editorconfig
 F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\floral-fusion.AssemblyInfoInputs.cache
 F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\floral-fusion.AssemblyInfo.cs
@@ -23,11 +25,9 @@ F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\staticwebassets.development.json
 F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\scopedcss\bundle\floral-fusion.styles.css
 F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\scopedcss\projectbundle\floral-fusion.bundle.scp.css
+F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\floral-fusion.csproj.CopyComplete
 F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\floral-fusion.dll
 F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\refint\floral-fusion.dll
 F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\floral-fusion.pdb
 F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\floral-fusion.genruntimeconfig.cache
 F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\ref\floral-fusion.dll
-F:\C#\asp.net\floral-fusion\bin\Debug\net7.0\Newtonsoft.Json.dll
-F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\floral-fusion.csproj.AssemblyReference.cache
-F:\C#\asp.net\floral-fusion\obj\Debug\net7.0\floral-fusion.csproj.CopyComplete

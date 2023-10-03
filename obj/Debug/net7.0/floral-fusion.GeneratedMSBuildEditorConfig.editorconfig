@@ -9,77 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = floral_fusion
 build_property.RootNamespace = floral_fusion
-build_property.ProjectDir = F:\C#\asp.net\floral-fusion\
+build_property.ProjectDir = f:\C#\asp.net\floral-fusion\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\C#\asp.net\floral-fusion
+build_property.MSBuildProjectDirectory = f:\C#\asp.net\floral-fusion
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Cart/Index.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Admin/Components/AdminSidebar/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29tcG9uZW50c1xBZG1pblNpZGViYXJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/C\#/asp.net/floral-fusion/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/C\#/asp.net/floral-fusion/Views/Admin/NewProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmV3UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/C\#/asp.net/floral-fusion/Views/Admin/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/C\#/asp.net/floral-fusion/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Checkout/Index.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Checkout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/HelloWorld/Index.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/HelloWorld/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/HelloWorld/Welcome.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/HelloWorld/Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxXZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Home/Index.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Home/Privacy.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Login/Index.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Logout/Index.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Logout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nb3V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Registration/Index.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Registration/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Shared/Components/Footers/Default.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Shared/Components/AdminHeaders/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWRtaW5IZWFkZXJzXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/C\#/asp.net/floral-fusion/Views/Shared/Components/Footers/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Shared/Components/Headers/Default.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Shared/Components/Headers/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVhZGVyc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Shared/Components/HelloWorld/Default.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Shared/Components/HelloWorld/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVsbG9Xb3JsZFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Shared/Error.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Shared/_ValidationScriptsPartial.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/_ViewImports.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/_ViewStart.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/C\#/asp.net/floral-fusion/Views/Shared/_Layout.cshtml]
+[f:/C\#/asp.net/floral-fusion/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gk266hs61w
